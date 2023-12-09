@@ -1,0 +1,64 @@
+body{
+    background-color:#000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aquamarine;
+    
+}
+.container{
+    position: absolute;
+    left: 28%;
+    bottom: 917px;
+}
+.btn {
+    color: black;
+}
+ 
+ 
+ 
+
+ section{
+    margin: 80px;
+    width: 80%;
+    padding: 15px;
+    border: 1px solid rgb(161, 9, 9);
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: box-shadow 0.3s ease-in-out;
+
+ }
+ section div img{
+    width: 100px;
+    height: 700px;
+ }
+ 
+ footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    padding: 20px;
+}
+footer .copy{
+    color: #000000;
+}
+footer .redes{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+}
+footer .redes a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+footer .redes a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
