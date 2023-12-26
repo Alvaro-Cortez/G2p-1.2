@@ -1,19 +1,38 @@
 body{
-    background-color:#000000;
+    background-color:#ffffff;
 }
 *{
     margin: 0;
     padding: 0;
 }
-fieldset legend{
-    color: antiquewhite;
 
+article{
+    
+}
+fieldset legend{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
 }
 div label{
-    color: antiquewhite;
+    color: rgb(10, 4, 4);
+    border: 3px solid rgb(0, 0, 0);
+    padding: 4px;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+div .button{
+    background-color: aliceblue;
+    border: #ffffff;
+    font-weight: bold;
+
 }
 main h1{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+    
 }
 header{
     background-color: aquamarine;
@@ -30,7 +49,7 @@ header nav a{
 
     padding: 10px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: large;
       
     
@@ -41,7 +60,7 @@ header nav a:hover{
 
 .container{
    position: absolute;
-   left: 92%;
+   left: 93%;
    top: 2%;
 }
 
@@ -54,7 +73,9 @@ main{
 }   
 h1{
     text-align: center;
+
 }
+
 footer{
     display: flex;
     justify-content: space-around;
@@ -63,7 +84,7 @@ footer{
     padding: 20px;
 }
 footer .copy{
-    color: #f5f5f5;
+    color: #000000;
 }
 footer .redes{
    display: flex;
@@ -72,7 +93,7 @@ footer .redes{
 }
 footer .redes a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     
 }
 footer .redes a:hover{
